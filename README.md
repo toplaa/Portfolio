@@ -6,4 +6,4 @@ In this project, we will build a classification algorithm to build a model from 
 
 To See other Machine Learning Algorithms Such as KNN, Regression, Clustering etc.., Click ---> [HERE](https://github.com/toplaa/Machine-Learning-Projects)
 
-![](https://github.com/toplaa/Temitope_Portfolio/blob/main/images/DT.png)
+![](/images/DT.png)
