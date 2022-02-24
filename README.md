@@ -14,14 +14,19 @@ The purpose of this database is to be able to extract, transform and load differ
 The database schema here is the STAR -Schema for the following reasons: It is simple and most widely used in the industry It contains one fact table and some other dimension tables that can reference each other It also simplifies the queries and minimizes the number of JOINS
 
 The link to the repository can be found [HERE](https://github.com/toplaa/Data-Engineering-Project.-Postgres-Data-Modeling) 
+
 The descriptions of the files in the repository are as follows:
 
 test.ipynb --> displays the first few rows of each table to let you check your database.
 
 create_tables.py --> drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
+
 etl.ipynb --> reads and processes a single file from song_data and log_data and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
+
 etl.py --> reads and processes files from song_data and log_data and loads them into your tables. You can fill this out based on your work in the ETL notebook.
+
 sql_queries.py --> contains all your sql queries, and is imported into the last three files above.
+
 README.md --> provides discussion on your project.
 
 
