@@ -6,7 +6,7 @@ To See other Machine Learning Algorithms Such as KNN, Regression, Clustering etc
 
 ![](/images/DT.png)
 
-## [Project 2- Data-Engineering-Project.-Postgres-Data-Modeling ]
+## [Project 2- Data-Engineering-Project.-Postgres-Data-Modeling ](https://github.com/toplaa/Data-Engineering-Project.-Postgres-Data-Modeling)
 This project is one of the projects that I did from Udacity Nanodegree.
 
 The purpose of this database is to be able to extract, transform and load different json files that are located in different paths. For this project, there are some variables (columns headers )that are in different paths(song_data and log_data), in addition, there is some other information such as the log information that are also in a different path. With a careful study of the table, one was able to identify fact tables and dimension tables that are referenced in order to develop a logical schema. With the ETL , we are able to create relevant tables with the required information and apply the appropriate SELECT statement to transform some of the data. The table is now a more organised version of the data instead of the different json files that are in different paths, as such the analytical teams can perform further analysis and transformation on the data to meet their different goals.
@@ -15,7 +15,9 @@ The database schema here is the STAR -Schema for the following reasons: It is si
 
 The link to the repository can be found [HERE](https://github.com/toplaa/Data-Engineering-Project.-Postgres-Data-Modeling) 
 The descriptions of the files in the repository are as follows:
+
 test.ipynb --> displays the first few rows of each table to let you check your database.
+
 create_tables.py --> drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
 etl.ipynb --> reads and processes a single file from song_data and log_data and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.
 etl.py --> reads and processes files from song_data and log_data and loads them into your tables. You can fill this out based on your work in the ETL notebook.
