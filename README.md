@@ -29,7 +29,7 @@ sql_queries.py ---> contains all your sql queries, and is imported into the last
 
 README.md --> provides discussion on your project.
 
-## [Project 3- Data-Engineering-Project.-Data Lake Project ](https://github.com/toplaa/Data_Lake-Project_Udacity-)
+## [Project 3- Data-Engineering-Project.-Data Lake Project (Local Machine and On Cloud (AWS) ](https://github.com/toplaa/Data_Lake-Project_Udacity-)
 This project is one of the projects that I did from Udacity Nanodegree
 
 The purpose of this database is to be able to extract, transform and load different json files that are located in different paths. For this project, there are some variables (columns headers )that are in different paths(song_data and log_data), in addition, there is some other information such as the log information that are also in a different path. With a careful study of the table, one was able to identify fact tables and dimension tables that are referenced in order to develop a logical schema. With the ETL , I was able to create relevant tables with the required information and apply the appropriate SELECT statement to transform some of the data. The table is now a more organised version of the data instead of the different json files that are in different paths, as such the analytical teams can perform further analysis and transformation on the data to meet their different goals.
